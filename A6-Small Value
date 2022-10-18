@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of values to input : 4");
+		System.out.print("enter a integer:"); int num1 = sc.nextInt();
+		System.out.print("enter a integer:"); int num2 = sc.nextInt();
+		System.out.print("enter a integer:"); int num3 = sc.nextInt();
+		System.out.print("enter a integer:"); int num4 = sc.nextInt();
+		 
+		 int Small = num1;
+		 
+		 if(num2 < Small){Small=num2;}
+		 if(num3 < Small){Small=num3;}
+		 if(num4 < Small){Small=num4;}
+		 System.out.println('\n');
+		
+		 System.out.println("the smallest is: " + Small);
+		 
+	}
+}
