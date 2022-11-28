@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+   
+    int num = 1;
+    int num1 = 0;
+    int sum = 0;
+    
+    do{
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Enter a number "+ num++ +": ");
+      num1 = sc.nextInt();
+      sum += num1;
+    
+      }while(num <= 6 && num1>=1 );
+      
+      if (num1>=0);
+      {System.out.println("You enter "+(num-1)+" numbers");}
+      
+      {System.out.println("The sum of the numbers is "+sum);}
+
+  }
+}
